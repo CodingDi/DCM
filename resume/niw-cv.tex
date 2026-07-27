@@ -1,0 +1,59 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.8in,right=0.8in,top=0.65in,bottom=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.2em,itemsep=2pt,topsep=2pt}
+
+\newcommand{\cventry}[3]{%
+  \textbf{#1} \hfill #2\\
+  \textit{#3}
+}
+
+\begin{document}
+
+\begin{center}
+  {\Large\textbf{Di Wu}}\\
+  Bellevue, WA \quad
+  \href{mailto:inbox.diwu@gmail.com}{inbox.diwu@gmail.com} \quad
+  \href{https://www.linkedin.com/in/di-wu-2020/}{LinkedIn}
+\end{center}
+
+\section*{Professional Experience}
+
+\cventry{Oracle America, Inc., Seattle, WA}{May 2024 -- Present}{Senior Member of Technical Staff}
+\begin{itemize}
+  \item Lead the architecture and development of distributed orchestration systems for large-scale AI infrastructure and GPU manufacturing validation.
+  \item Design fault-tolerant workflows, distributed state-reconciliation mechanisms, and standardized service contracts across heterogeneous GPU platforms, including NVIDIA GB200/GB300 and AMD MI355/MI455, and international manufacturing vendors.
+  \item Architect control-plane services coordinating validation, result collection, failure analysis, repair, and infrastructure lifecycle workflows using Temporal-based durable orchestration.
+  \item Built inventory and rack-management services supporting 15,000+ infrastructure assets and improving operational efficiency by 8$\times$.
+\end{itemize}
+
+\cventry{LinkedIn, Sunnyvale, CA}{Jul 2022 -- Mar 2024}{Software Engineer}
+\begin{itemize}
+  \item Developed distributed analytics pipelines and production experimentation capabilities supporting behavioral analysis, attribution, and enterprise recruiting products.
+  \item Contributed to a 20\% increase in enterprise product adoption through scalable analytics and data-driven product optimization.
+\end{itemize}
+
+\cventry{Cantonica, Sunnyvale, CA}{Aug 2022 -- Jan 2023}{Co-founder}
+\begin{itemize}
+  \item Co-founded an AI-powered application-discovery platform and architected scalable backend services, AI-driven indexing pipelines, and cloud infrastructure.
+  \item Led platform development from concept to acquisition; the work received coverage from \textit{Digital Journal}, \textit{CoinCodex}, and \textit{Benzinga}.
+\end{itemize}
+
+\cventry{Amazon Web Services, Seattle, WA}{Jan 2021 -- Jul 2022}{Software Development Engineer}
+\begin{itemize}
+  \item Built backend services and console workflows for AWS pricing and Amazon Textract experiences.
+  \item Migrated operational workflows to serverless CI/CD infrastructure, reducing recurring engineering maintenance overhead by 50\%.
+\end{itemize}
+
+\section*{Education}
+
+\textbf{Washington University in St. Louis} \hfill 2018 -- 2020\\
+M.S. in Engineering Data Science, GPA: 3.8/4.0
+
+\textbf{Beijing University of Posts and Telecommunications} \hfill 2014 -- 2018\\
+B.E. in Internet of Things Engineering, GPA: 3.8/4.0
+
+\end{document}

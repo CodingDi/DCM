@@ -18,3 +18,19 @@ This private repository is the single source of truth for my professional experi
 - Treat `resume/master.md` and the project stories as canonical sources.
 - Tailored resumes may select and reframe facts, but must not introduce new claims.
 - Ask before deleting or materially rewriting historical information.
+
+## Resume naming convention
+
+Name every resume using:
+
+```text
+yyyy-mm-name.ext
+```
+
+Examples:
+
+- `2026-07-general.tex`
+- `2026-07-niw.tex`
+- `2026-08-stripe.pdf`
+
+Use lowercase words separated by hyphens. The name should identify the resume's purpose, target company, or target role.

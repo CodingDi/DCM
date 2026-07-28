@@ -1,6 +1,6 @@
-# 2026 Senior SWE Interview Plan
+# Di's Career Manager Plan
 
-> 定位：2026 年底 6+ YOE；目标 Senior，按 Staff 深度准备。
+> 定位：2026 年底 6+ YOE；目标 Senior，按 Staff 深度准备 back up strong SDE2
 > 概率为基于履历匹配、目标级别、岗位供给和面试门槛的规划区间，并非公司公开录取率。Package 为市场参考值，实际随地点、团队、股价和 Offer 变化。
 
 ## 目录 / Table of Contents

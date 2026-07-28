@@ -1,0 +1,85 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage[left=0.72in,right=0.72in,top=0.50in,bottom=0.55in]{geometry}
+\usepackage{enumitem}
+
+\setlist[itemize]{topsep=2pt,itemsep=1.5pt,parsep=0pt,leftmargin=1.15em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagenumbering{gobble}
+
+\definecolor{darkblue}{RGB}{0,0,110}
+
+\newcommand{\sectionheader}[1]{%
+  \vspace{0.45em}
+  \noindent\textbf{\textcolor{darkblue}{#1}}\hspace{0.5em}\hrulefill
+  \vspace{0.25em}
+}
+
+\newcommand{\jobentry}[4]{%
+  \textbf{#1} \hfill #2\\[-0.15em]
+  \textit{#3} \hfill \textit{#4}
+}
+
+\begin{document}
+
+\begin{center}
+  \vspace*{-1.25em}
+  {\Large\textbf{Di Wu}}\\[-0.05em]
+  Bellevue, WA \;|\; (314) 203-5404 \;|\;
+  \href{mailto:inbox.diwu@gmail.com}{inbox.diwu@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/di-wu-2020/}{LinkedIn}
+\end{center}
+
+\vspace{-0.65em}
+\sectionheader{Summary}
+
+Senior backend and infrastructure engineer with 5+ years of experience building distributed systems, orchestration platforms, and cloud services at Oracle Cloud Infrastructure, LinkedIn, and AWS. Specialized in workflow orchestration, fault-tolerant services, state reconciliation, API design, and production reliability for large-scale infrastructure.
+
+\sectionheader{Experience}
+
+\jobentry{Oracle Cloud Infrastructure}{Seattle, WA}{Senior Member of Technical Staff}{May 2024 -- Present}
+\begin{itemize}
+  \item Led the architecture, technical roadmap, and end-to-end delivery of a centralized orchestration platform coordinating GPU validation, failure triage, repair, inventory operations, and lifecycle management across large-scale AI infrastructure.
+  \item Designed deterministic, idempotent workflows and multi-source state reconciliation, using centralized synchronization, batching, and adaptive backoff to improve resiliency, failure attribution, and scalability under partial outages and bursty workloads.
+  \item Built and owned inventory and rack-management services supporting \textbf{15,000+ infrastructure assets}, improving operational efficiency by \textbf{8x} and enabling reliable GPU rack validation and deployment.
+  \item Owned cross-functional execution by defining API contracts, driving service integration, and resolving technical dependencies across software, hardware, validation, data-center, and international vendor teams in the U.S., Taiwan, and Mexico.
+  \item Mentored \textbf{3--5 engineers} through architecture guidance, design reviews, implementation, and production readiness across orchestration and inventory initiatives.
+\end{itemize}
+
+\jobentry{LinkedIn}{Sunnyvale, CA}{Software Engineer}{Jul 2022 -- Mar 2024}
+\begin{itemize}
+  \item Developed and operated backend services and distributed analytics pipelines for LinkedIn Talent Solutions reporting and enterprise recruiting products.
+  \item Improved data correctness and reporting reliability by optimizing service validation, query patterns, and asynchronous processing across distributed pipelines.
+  \item Contributed to a \textbf{20\% increase} in enterprise feature adoption through scalable analytics and data-driven product optimization.
+\end{itemize}
+
+\jobentry{Cantonica}{Sunnyvale, CA}{Co-founder}{Aug 2022 -- Jan 2023}
+\begin{itemize}
+  \item Co-founded an AI-powered application-discovery platform, architecting scalable backend services and AI-driven indexing pipelines from concept through acquisition.
+\end{itemize}
+
+\jobentry{Amazon Web Services}{Seattle, WA}{Software Development Engineer}{Jan 2021 -- Jul 2022}
+\begin{itemize}
+  \item Built backend services and customer-facing console workflows for AWS pricing and Amazon Textract, partnering with product and data-science teams.
+  \item Migrated operational workflows to serverless CI/CD infrastructure, reducing recurring engineering maintenance overhead by \textbf{50\%} and improving deployment reliability.
+\end{itemize}
+
+\sectionheader{Skills}
+
+\textbf{Languages:} Java, Kotlin, Rust, Python, TypeScript, SQL\\
+\textbf{Distributed Systems:} Workflow orchestration, state machines, idempotency, state reconciliation, retries/backoff, asynchronous processing, fault tolerance, observability\\
+\textbf{Backend \& Infrastructure:} API design, microservices, PostgreSQL, distributed caching, queues, Kubernetes, Terraform, containers, CI/CD, cloud infrastructure automation
+
+\sectionheader{Education}
+
+\textbf{Washington University in St. Louis} \hfill Aug 2018 -- May 2020\\[-0.1em]
+M.S. in Engineering Data Science, GPA: \textbf{3.8/4.0}
+
+\textbf{Beijing University of Posts and Telecommunications} \hfill Aug 2014 -- Jul 2018\\[-0.1em]
+B.E. in Internet of Things Engineering, GPA: \textbf{3.8/4.0}
+
+\end{document}

@@ -58,9 +58,10 @@
 
 **为什么是 C：**这些可以作为最终 Fallback，但不应成为最初目标。你的默认市场定位应当是 Senior。
 
-## 2. 技术准备工作量
+## 2.High Level Plan
 
-原来的 **150h** 只够覆盖一轮基础准备，无法同时支持 150 道 Coding、多轮复习、Hello Interview、SD Mock 和 Senior-level Project Deep Dive。新的预算以真实日历为准：前 8 周高强度冲刺，第 9 周后由面试逐步替代训练。
+前 8 周高强度冲刺，第 9 周后由面试逐步替代训练
+### By Week
 
 | 时间段 | 日历预留 | 用途 | 说明 |
 |---|---:|---|---|
@@ -71,7 +72,7 @@
 | **Week 13–16** | **18h/周，共 72h** | 面试维护、Targeted Remediation、Finals | 不是继续扩展题库 |
 | **Week 17–20** | **8–12h/周，按需** | 招聘流程延迟与 Holiday Buffer | Pipeline 活跃才维持；否则休整并准备 1 月窗口 |
 
-### 核心准备范围
+### By components
 
 | Component | 预计投入 | 目标 |
 |---|---:|---|
@@ -85,7 +86,15 @@
 - **但求职运营仍占用真实精力：**Week 1–8 的总负荷约为 **34h 技术/面试日历 + 5h 求职运营**，相当于本职工作之外的第二份工作，只适合作为阶段性冲刺。
 - **正式面试单独记录结果，但共享技术时间池：**1 小时 Technical Round 连同热身和复盘通常会替换 2–3 小时训练；半天 Onsite 替换当天或当周 5–7 小时训练。
 
-## 3. 求职 Pipeline 时间线
+#### Hello Interview 使用方法
+
+- **Week 1–6：**先读当周指定的 Core Concepts / Key Technologies / Common Patterns，再独立完成 Question Breakdown；不要先读题目答案。
+- 每个新技术先回答五件事：它属于哪类组件、解决什么问题、放在架构的哪里、请求怎样经过它、失败或不用它会怎样。
+- 对照答案时只记录三类差距：不认识的术语、遗漏的 Pattern、说不清的 Trade-off；不要抄写整篇标准答案。
+- **Week 7 以后：**停止顺序通读，只根据 Mock、真实面试和公司专项暴露出的缺口回查对应板块。
+- 完整 Design 必须独立覆盖 Requirements、API / Data Model、High-Level Design 和至少两个 Deep Dive；只阅读答案不计为完成。
+
+### By Timeline
 
 本节只安排投递和面试流程；技术总时数见第 2 节，每周执行见第 4 节。
 
@@ -106,7 +115,7 @@
 - A 组拆成两个 Wave，不要同时启动所有公司；高匹配岗位尽量在发布后 **7–10 天内**投递。
 - 每次面试后复盘最多 **30 分钟**；只记录问题、错误、信号和 1–2 个修正动作。
 
-## 4. 每周固定安排
+## 3. Weekly PLan
 
 ### Weekly Goal
 
@@ -135,71 +144,8 @@
 | **19 · 11/30 - 12/06** | 按 Pipeline 选择弱项 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Pipeline-dependent Review<br>**Target：**围绕下一场面试复述 1 个 Design | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 推进延迟流程；评估是否需要 1 月第二窗口 |
 | **20 · 12/07 - 12/13** | 轻量保持手感 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**通用 Design + Infra Design<br>**Target：**各复述 1 次，形成下一窗口的 Error List | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 关闭 2026 主窗口；形成 1 月继续或停止的明确决定 |
 
-#### Hello Interview 使用方法
 
-- **Week 1–6：**先读当周指定的 Core Concepts / Key Technologies / Common Patterns，再独立完成 Question Breakdown；不要先读题目答案。
-- 每个新技术先回答五件事：它属于哪类组件、解决什么问题、放在架构的哪里、请求怎样经过它、失败或不用它会怎样。
-- 对照答案时只记录三类差距：不认识的术语、遗漏的 Pattern、说不清的 Trade-off；不要抄写整篇标准答案。
-- **Week 7 以后：**停止顺序通读，只根据 Mock、真实面试和公司专项暴露出的缺口回查对应板块。
-- 完整 Design 必须独立覆盖 Requirements、API / Data Model、High-Level Design 和至少两个 Deep Dive；只阅读答案不计为完成。
 
-### Week 1–4：34h Build 模式
-
-| 日期 | 时间 | 内容 |
-|---|---:|---|
-| Monday | **3.5h** | • **Coding：**新 Pattern 的 Anchor Problem + 2–4 道相似题<br>• **Review：**记录 Pattern、触发信号和失败原因 |
-| Tuesday | **3.5h** | • **Coding · 1h：**复习题或限时 Medium<br>• **SD · 2.5h：**学习当周 Hello Interview 指定板块并做概念卡 |
-| Wednesday | **3.5h** | • **Coding：**新题组 + 前几天的间隔复习；口头解释复杂度和测试 |
-| Thursday | **3.5h** | • **Coding · 1h：**复习题或关键代码<br>• **SD · 2.5h：**独立画请求链路、Data Model 和 Deep Dive |
-| Friday | **5h** | • **Coding · 3h：**新题 + 二刷<br>• **SD · 2h：**复述当周 Design，补 Trade-off 和 Failure Handling |
-| Saturday | **8h** | • **Coding · 4.5h：**题组训练或 Coding Mock<br>• **SD · 3.5h：**完整 Question Breakdown；先作答，再看答案并复盘 |
-| Sunday | **7h** | • **Coding · 3h：**本周错题和间隔复习<br>• **SD · 2h：**闭卷重讲请求链路和两个 Deep Dive<br>• **Infra / Project / BQ · 2h：**按当周目标轮换 |
-| **Total** | **34h** | **Coding 19.5h · SD 12.5h · Infra/Project/BQ 2h** |
-
-### Week 5–8：34h Complete + Calibrate 模式
-
-| 日期 | 时间 | 内容 |
-|---|---:|---|
-| Monday | **3.5h** | • **Coding：**新题/二刷；优先修复 Mock 或真实面试暴露的 Pattern |
-| Tuesday | **3.5h** | • **Coding · 1h：**限时复习<br>• **SD · 2.5h：**Key Technologies / Common Patterns |
-| Wednesday | **3.5h** | • **Coding：**新题组、二刷或 Coding Mock |
-| Thursday | **3.5h** | • **Coding · 1h：**Maintenance<br>• **SD · 2.5h：**Control Plane、Scheduler 或 GPU/Fleet Design |
-| Friday | **5h** | • **Coding · 2.5h：**目标公司形式<br>• **SD · 2.5h：**限时 Design 或 Deep Dive Drill |
-| Saturday | **8h** | • **Coding · 4h：**二刷 / Mock<br>• **SD · 4h：**完整 Design + Review |
-| Sunday | **7h** | • **Coding · 1.5h：**Error Log<br>• **SD · 2.5h：**闭卷复述<br>• **Infra / Project / BQ · 3h：**下一场最相关内容 |
-| **Total** | **34h** | **Coding 17h · SD 14h · Infra/Project/BQ 3h；Review 包含在各模块内；面试替换同等时长训练** |
-
-### Week 9–12：28h Main Loop 模式
-
-| 日期 | 时间 | 内容 |
-|---|---:|---|
-| Monday | **2.5h** | • **Coding：**二/三刷和下一家公司高频形式 |
-| Tuesday | **2.5h** | • **SD：**公司相关 Question Breakdown 或 Deep Dive |
-| Wednesday | **2.5h** | • **Coding：**Timed Coding + Follow-up |
-| Thursday | **2.5h** | • **Project / BQ：**下一家公司版本；无面试时用于 Infra Specialty |
-| Friday | **4h** | • **Coding · 1.5h：**Error Log<br>• **SD · 2.5h：**限时 Design |
-| Saturday | **8h** | • **Coding · 3h：**Mock 或弱题<br>• **SD · 4h：**完整 Design / Mock<br>• **Review · 1h：**形成最多两个修正动作 |
-| Sunday | **6h** | • **Coding · 1.5h：**Maintenance<br>• **SD · 2.5h：**闭卷复述<br>• **Infra / Company Prep · 2h：**下一场专项 |
-| **Total** | **28h** | **技术面和 Onsite 替换当天训练；不在周末补齐被面试替换的所有小时** |
-
-### Week 13–16：18h Onsite + Closing 模式
-
-| 日期 | 时间 | 内容 |
-|---|---:|---|
-| Monday | **1.5h** | • **Coding：**Maintenance 或下一场高频形式 |
-| Tuesday | **1.5h** | • **SD：**闭卷重做最相关的 Design / Deep Dive |
-| Wednesday | **1.5h** | • **Coding：**Error Log 和 Follow-up |
-| Thursday | **1.5h** | • **Project / BQ：**下一家公司版本 |
-| Friday | **2h** | • **Interview Prep / Review：**只解决下一场最高风险项 |
-| Saturday | **6h** | • **Targeted Mock · 4–5h：**按下一场面试组合 Coding、SD、Project/BQ<br>• **Review · 1–2h：**修正最明显的问题 |
-| Sunday | **4h** | • **Company Specialty · 2h：**下一场需要的内容<br>• **Maintenance / Recovery · 2h：**轻量复习、排期或恢复 |
-| **Total** | **18h** | **有完整 Onsite 时，它就是当周主要训练；不要再补做完整 18h** |
-
-### Week 17–20：8–12h Process Buffer
-
-- 每周 2 次 Coding Maintenance、1 次 SD 复述和 1 次公司专项即可。
-- 有活跃面试时，把时间集中到下一轮；没有活跃面试时，不为了完成小时数继续堆题。
-- Thanksgiving 周默认降到低强度。12 月中旬统一决定：结束、继续现有流程，或为 2027 年 1 月建立第二窗口。
 
 ### 时间统计规则
 

@@ -26,7 +26,7 @@
 | **Meta** | E5 主目标；E4 downlevel | **25–40%** | **15–25%** | Seattle：~$215K Base + ~$193K Equity/年 | Architecture Ownership 和 Mentoring 支持 E5。风险是 Speed Coding，以及能否简洁说明个人 Impact。 |
 | **Snowflake** | IC3 Senior；IC4 冲刺；IC2 downlevel | **25–40%** | **15–25%** | Seattle：~$251K Base + ~$229K Equity/年 | Control Plane、Metadata 和 Reliability Team 匹配度高。缺口是 Transaction、Concurrency 和 Database Internals。 |
 
-**为什么是 A：**这些公司的 Senior Band 同时符合你的 6+ YOE 和当前 Scope；要么经历匹配度最高，要么 Package 与长期成长回报更好，值得投入主要精力。
+**为什么是 A：** 这些公司的 Senior Band 同时符合你的 6+ YOE 和当前 Scope；要么经历匹配度最高，要么 Package 与长期成长回报更好，值得投入主要精力。
 
 ### B — 选择性冲刺或备选
 
@@ -40,7 +40,7 @@
 | **Microsoft** | 64 主目标；65 冲刺；63 downlevel | **35–55%** | **20–35%** | Seattle 64：~$200K Base + ~$43K Equity/年 + Bonus | Azure Compute/AI Infra 对口，成功率相对友好；除非 Team/Offer 很好，否则 Package 上限低于 A 组头部公司。 |
 | **Bloomberg** | Senior Software Engineer | **30–50%** | **20–35%** | ~$242K Base + ~$62K Bonus | 适合校准 Coding、Concurrency 和 Reliable Distributed Systems；AI Infra 匹配较弱，回报以现金为主。 |
 
-**为什么是 B：**不是公司或岗位不好，而是需要更精准地选 Team。有些属于高回报冲刺，但存在 ML Systems、CUDA/HPC 等专项缺口；另一些更适合作为校准或保底。
+**为什么是 B：** 不是公司或岗位不好，而是需要更精准地选 Team。有些属于高回报冲刺，但存在 ML Systems、CUDA/HPC 等专项缺口；另一些更适合作为校准或保底。
 
 ### C — Downlevel 或低 ROI 结果
 
@@ -56,7 +56,7 @@
 | Microsoft | 63 | 稳定 Fallback；初始目标仍是 64。 |
 | Netflix | L4 | 仅当岗位仍提供明确 Senior Ownership 时接受。 |
 
-**为什么是 C：**这些可以作为最终 Fallback，但不应成为最初目标。你的默认市场定位应当是 Senior。
+**为什么是 C：** 这些可以作为最终 Fallback，但不应成为最初目标。你的默认市场定位应当是 Senior。
 
 ## 2.High Level Plan
 
@@ -82,16 +82,16 @@
 | **Project Deep Dive + BQ** | **25–30h** | 3 个项目分别准备 2/10/30 分钟版本；10 个可复用的 Senior-level Story |
 | **Mock + Review** | **20–25h，已包含在 Coding / SD 时数中** | 至少 3 次 Coding、3 次 SD 和 1 次 BQ/Project Mock；每次只形成 1–2 个修正动作 |
 
-- **求职运营单独统计：**Resume Tailoring、投递、Networking、查面经和 Recruiter Logistics 预留 **5h/周**，不计入技术准备时数。
-- **但求职运营仍占用真实精力：**Week 1–8 的总负荷约为 **34h 技术/面试日历 + 5h 求职运营**，相当于本职工作之外的第二份工作，只适合作为阶段性冲刺。
-- **正式面试单独记录结果，但共享技术时间池：**1 小时 Technical Round 连同热身和复盘通常会替换 2–3 小时训练；半天 Onsite 替换当天或当周 5–7 小时训练。
+- **求职运营单独统计：** Resume Tailoring、投递、Networking、查面经和 Recruiter Logistics 预留 **5h/周**，不计入技术准备时数。
+- **但求职运营仍占用真实精力：** Week 1–8 的总负荷约为 **34h 技术/面试日历 + 5h 求职运营**，相当于本职工作之外的第二份工作，只适合作为阶段性冲刺。
+- **正式面试单独记录结果，但共享技术时间池：** 1 小时 Technical Round 连同热身和复盘通常会替换 2–3 小时训练；半天 Onsite 替换当天或当周 5–7 小时训练。
 
 #### Hello Interview 使用方法
 
-- **Week 1–6：**先读当周指定的 Core Concepts / Key Technologies / Common Patterns，再独立完成 Question Breakdown；不要先读题目答案。
+- **Week 1–6：** 先读当周指定的 Core Concepts / Key Technologies / Common Patterns，再独立完成 Question Breakdown；不要先读题目答案。
 - 每个新技术先回答五件事：它属于哪类组件、解决什么问题、放在架构的哪里、请求怎样经过它、失败或不用它会怎样。
 - 对照答案时只记录三类差距：不认识的术语、遗漏的 Pattern、说不清的 Trade-off；不要抄写整篇标准答案。
-- **Week 7 以后：**停止顺序通读，只根据 Mock、真实面试和公司专项暴露出的缺口回查对应板块。
+- **Week 7 以后：** 停止顺序通读，只根据 Mock、真实面试和公司专项暴露出的缺口回查对应板块。
 - 完整 Design 必须独立覆盖 Requirements、API / Data Model、High-Level Design 和至少两个 Deep Dive；只阅读答案不计为完成。
 
 ### By Timeline
@@ -115,37 +115,32 @@
 - A 组拆成两个 Wave，不要同时启动所有公司；高匹配岗位尽量在发布后 **7–10 天内**投递。
 - 每次面试后复盘最多 **30 分钟**；只记录问题、错误、信号和 1–2 个修正动作。
 
-## 3. Weekly PLan
+## 3. Weekly Plan
 
 ### Weekly Goal
 
-进度栏只用于记录完成比例：完成后将对应的 `⬜` 改成 `✅`，每周可以停在任意档位。
-
-| Week | Coding | Coding Progress | System Design | SD Progress | Project |
-|---|---|---|---|---|---|
-| **1 · 07/27 - 08/02** | **24–28 道新题**；按 Array/String、Hash、Two Pointers 聚类 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Delivery Framework、API Design、Data Modeling<br>**Target：**首次尝试 Bitly；记录知识缺口，不要求完成 Deep Dive | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | Resume 可投递；列出 3 个 Project Deep Dive 骨架；只安排 Recruiter Call |
-| **2 · 08/03 - 08/09** | **22–26 道新题 + 8–12 道复习**；加入 Sliding Window、Stack/Queue | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Database Indexing、Caching、Redis、PostgreSQL<br>**Target：**完成 Bitly；隔天闭卷重讲请求链路和两个 Deep Dive | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 完成第 1 个 Project 的 2/10/30 分钟版本；整理 3 个 BQ Story |
-| **3 · 08/10 - 08/16** | **20–24 道新题 + 15–20 道复习**；Tree/BFS/DFS | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Networking Essentials、Handling Large Blobs<br>**Target：**完成 Dropbox | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 第 1 次 Coding Mock；完成第 2 个 Project Deep Dive；开始精选投递和 Recruiter/HM Screen |
-| **4 · 08/17 - 08/23** | **18–22 道新题 + 20–25 道复习**；Heap、Interval、Binary Search | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**CAP Theorem、Dealing with Contention<br>**Target：**完成 Ticketmaster；重点练 Transaction、Lock 和并发冲突 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 第 1 次 SD Mock；3 个 Project Deep Dive 骨架齐全；累计 8–10 个 BQ Story |
-| **5 · 08/24 - 08/30** | **15–18 道新题 + 25–30 道复习**；Graph、Topological Sort | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Kafka、Long-Running Tasks、Multi-Step Processes<br>**Target：**完成 Job Scheduler；重点练 Queue、Retry 和 Idempotency | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | Kubernetes / Control Loop 专项；达到 Calibration Gate 后开始 B 组 Technical |
-| **6 · 08/31 - 09/06** | **15–18 道新题 + 25–30 道复习**；DP 基础和高频弱项 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Sharding、Consistent Hashing、Numbers to Know、Scaling Reads/Writes<br>**Target：**完成 News Feed | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 第 2 次 Coding Mock 和第 2 次 SD Mock；Scheduler、Retry、Idempotency 专项 |
-| **7 · 09/07 - 09/13** | **10–15 道新题 + 25–35 道复习**；补齐首轮缺口 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**ZooKeeper、Redis Coordination、Reconciliation、Contention<br>**Target：**完成 Control Plane / Reconciliation Design | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 根据 Calibration 修正；若达到 A Gate，启动 A Wave 1 |
-| **8 · 09/14 - 09/20** | 完成 **150 道首轮**；二刷聚焦核心 Pattern 和 Error Log | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Scaling Writes、Dealing with Contention；回看 Job Scheduler<br>**Target：**完成 GPU/Fleet Scheduler Design | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 第 3 次 Coding Mock、第 3 次 SD Mock 和第 1 次 BQ/Project Mock；3 个 Project Deep Dive 定稿 |
-| **9 · 09/21 - 09/27** | 二刷；每天以限时重写和 Follow-up 为主 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Distributed Cache 或 Metrics Monitoring；回查关联 Concepts/Technologies<br>**Target：**完成 Metadata、Quota 或 Compute Orchestration Design | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | A Wave 1 Technical；每场面试只提取 1–2 个修正动作 |
-| **10 · 09/28 - 10/04** | 二刷接近完成；开始第三轮弱题 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**与下一家公司最相关的 Guided Practice<br>**Target：**完成 45–60 分钟限时 Mock；只补暴露出的两个板块 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | A Wave 2 启动；安排一次半天 Onsite Simulation |
-| **11 · 10/05 - 10/11** | 第三轮弱题；只练 Error Log 和目标公司形式 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**下一场最相关的 Question Breakdown、Pattern 和 Technology<br>**Target：**闭卷重做一题；不新增主题 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 主 Technical / Onsite；Project/BQ 改为公司专项版本 |
-| **12 · 10/12 - 10/18** | 全量二刷完成为目标；第三轮继续 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Guided Practice / Question Breakdowns Review<br>**Target：**完成最后一次通用限时 Design；复习 Bitly、Contention 和 Infra/Control Plane | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | Readiness Audit；停止增加通用题库和 SD 主题 |
-| **13 · 10/19 - 10/25** | Maintenance：2 次限时 Coding + 弱题 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**下一场相关的 Breakdown、Pattern 和 Technology<br>**Target：**完成 1 个完整 Design 或 2 个 Deep Dive Drill | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | A 组 Onsite；只修正下一场最高风险项 |
-| **14 · 10/26 - 11/01** | Maintenance；不追数量 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**下一家公司相关架构<br>**Target：**完成 1 个完整 Design 或 2 个 Deep Dive Drill | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | Onsite / Final；同步不同公司的流程速度 |
-| **15 · 11/02 - 11/08** | Maintenance；根据真实错误选择题目 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**真实面试暴露的板块<br>**Target：**完成 1 个完整 Design 或 2 个 Deep Dive Drill | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | Final / Team Match；准备 Level 和 Scope 讨论 |
-| **16 · 11/09 - 11/15** | Maintenance 或暂停 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**下一场需要的 Design<br>**Target：**完成 1 个完整 Design 或 2 个 Deep Dive Drill；无活跃流程则暂停 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | Offer、Team Match、Reference 或仍在进行的 Final；Pipeline 薄才补投 |
-| **17 · 11/16 - 11/22** | 每周 2 次轻量练习 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Pipeline-dependent Review<br>**Target：**有活跃流程时复述 1 个 Design | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 仅维护活跃流程；不重启大规模题库 |
-| **18 · 11/23 - 11/29** | Holiday Maintenance | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Holiday Maintenance<br>**Target：**有面试时复述 1 个 Design；否则不强制学习 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | Thanksgiving 周默认降载；有面试再专项准备 |
-| **19 · 11/30 - 12/06** | 按 Pipeline 选择弱项 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**Pipeline-dependent Review<br>**Target：**围绕下一场面试复述 1 个 Design | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 推进延迟流程；评估是否需要 1 月第二窗口 |
-| **20 · 12/07 - 12/13** | 轻量保持手感 | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | **High-level：**通用 Design + Infra Design<br>**Target：**各复述 1 次，形成下一窗口的 Error List | ⬜ 25% · ⬜ 50% · ⬜ 75% · ⬜ 100% | 关闭 2026 主窗口；形成 1 月继续或停止的明确决定 |
-
-
-
+| Week | Coding | System Design | Project |
+|---|---|---|---|
+| **1 · 07/27 - 08/02** | **24–28 道新题**；按 Array/String、Hash、Two Pointers 聚类 | **High-level：** Delivery Framework、API Design、Data Modeling<br>**Target：** 首次尝试 Bitly；记录知识缺口，不要求完成 Deep Dive | Resume 可投递；列出 3 个 Project Deep Dive 骨架；只安排 Recruiter Call |
+| **2 · 08/03 - 08/09** | **22–26 道新题 + 8–12 道复习**；加入 Sliding Window、Stack/Queue | **High-level：** Database Indexing、Caching、Redis、PostgreSQL<br>**Target：** 完成 Bitly；隔天闭卷重讲请求链路和两个 Deep Dive | 完成第 1 个 Project 的 2/10/30 分钟版本；整理 3 个 BQ Story |
+| **3 · 08/10 - 08/16** | **20–24 道新题 + 15–20 道复习**；Tree/BFS/DFS | **High-level：** Networking Essentials、Handling Large Blobs<br>**Target：** 完成 Dropbox | 第 1 次 Coding Mock；完成第 2 个 Project Deep Dive；开始精选投递和 Recruiter/HM Screen |
+| **4 · 08/17 - 08/23** | **18–22 道新题 + 20–25 道复习**；Heap、Interval、Binary Search | **High-level：** CAP Theorem、Dealing with Contention<br>**Target：** 完成 Ticketmaster；重点练 Transaction、Lock 和并发冲突 | 第 1 次 SD Mock；3 个 Project Deep Dive 骨架齐全；累计 8–10 个 BQ Story |
+| **5 · 08/24 - 08/30** | **15–18 道新题 + 25–30 道复习**；Graph、Topological Sort | **High-level：** Kafka、Long-Running Tasks、Multi-Step Processes<br>**Target：** 完成 Job Scheduler；重点练 Queue、Retry 和 Idempotency | Kubernetes / Control Loop 专项；达到 Calibration Gate 后开始 B 组 Technical |
+| **6 · 08/31 - 09/06** | **15–18 道新题 + 25–30 道复习**；DP 基础和高频弱项 | **High-level：** Sharding、Consistent Hashing、Numbers to Know、Scaling Reads/Writes<br>**Target：** 完成 News Feed | 第 2 次 Coding Mock 和第 2 次 SD Mock；Scheduler、Retry、Idempotency 专项 |
+| **7 · 09/07 - 09/13** | **10–15 道新题 + 25–35 道复习**；补齐首轮缺口 | **High-level：** ZooKeeper、Redis Coordination、Reconciliation、Contention<br>**Target：** 完成 Control Plane / Reconciliation Design | 根据 Calibration 修正；若达到 A Gate，启动 A Wave 1 |
+| **8 · 09/14 - 09/20** | 完成 **150 道首轮**；二刷聚焦核心 Pattern 和 Error Log | **High-level：** Scaling Writes、Dealing with Contention；回看 Job Scheduler<br>**Target：** 完成 GPU/Fleet Scheduler Design | 第 3 次 Coding Mock、第 3 次 SD Mock 和第 1 次 BQ/Project Mock；3 个 Project Deep Dive 定稿 |
+| **9 · 09/21 - 09/27** | 二刷；每天以限时重写和 Follow-up 为主 | **High-level：** Distributed Cache 或 Metrics Monitoring；回查关联 Concepts/Technologies<br>**Target：** 完成 Metadata、Quota 或 Compute Orchestration Design | A Wave 1 Technical；每场面试只提取 1–2 个修正动作 |
+| **10 · 09/28 - 10/04** | 二刷接近完成；开始第三轮弱题 | **High-level：** 与下一家公司最相关的 Guided Practice<br>**Target：** 完成 45–60 分钟限时 Mock；只补暴露出的两个板块 | A Wave 2 启动；安排一次半天 Onsite Simulation |
+| **11 · 10/05 - 10/11** | 第三轮弱题；只练 Error Log 和目标公司形式 | **High-level：** 下一场最相关的 Question Breakdown、Pattern 和 Technology<br>**Target：** 闭卷重做一题；不新增主题 | 主 Technical / Onsite；Project/BQ 改为公司专项版本 |
+| **12 · 10/12 - 10/18** | 全量二刷完成为目标；第三轮继续 | **High-level：** Guided Practice / Question Breakdowns Review<br>**Target：** 完成最后一次通用限时 Design；复习 Bitly、Contention 和 Infra/Control Plane | Readiness Audit；停止增加通用题库和 SD 主题 |
+| **13 · 10/19 - 10/25** | Maintenance：2 次限时 Coding + 弱题 | **High-level：** 下一场相关的 Breakdown、Pattern 和 Technology<br>**Target：** 完成 1 个完整 Design 或 2 个 Deep Dive Drill | A 组 Onsite；只修正下一场最高风险项 |
+| **14 · 10/26 - 11/01** | Maintenance；不追数量 | **High-level：** 下一家公司相关架构<br>**Target：** 完成 1 个完整 Design 或 2 个 Deep Dive Drill | Onsite / Final；同步不同公司的流程速度 |
+| **15 · 11/02 - 11/08** | Maintenance；根据真实错误选择题目 | **High-level：** 真实面试暴露的板块<br>**Target：** 完成 1 个完整 Design 或 2 个 Deep Dive Drill | Final / Team Match；准备 Level 和 Scope 讨论 |
+| **16 · 11/09 - 11/15** | Maintenance 或暂停 | **High-level：** 下一场需要的 Design<br>**Target：** 完成 1 个完整 Design 或 2 个 Deep Dive Drill；无活跃流程则暂停 | Offer、Team Match、Reference 或仍在进行的 Final；Pipeline 薄才补投 |
+| **17 · 11/16 - 11/22** | 每周 2 次轻量练习 | **High-level：** Pipeline-dependent Review<br>**Target：** 有活跃流程时复述 1 个 Design | 仅维护活跃流程；不重启大规模题库 |
+| **18 · 11/23 - 11/29** | Holiday Maintenance | **High-level：** Holiday Maintenance<br>**Target：** 有面试时复述 1 个 Design；否则不强制学习 | Thanksgiving 周默认降载；有面试再专项准备 |
+| **19 · 11/30 - 12/06** | 按 Pipeline 选择弱项 | **High-level：** Pipeline-dependent Review<br>**Target：** 围绕下一场面试复述 1 个 Design | 推进延迟流程；评估是否需要 1 月第二窗口 |
+| **20 · 12/07 - 12/13** | 轻量保持手感 | **High-level：** 通用 Design + Infra Design<br>**Target：** 各复述 1 次，形成下一窗口的 Error List | 关闭 2026 主窗口；形成 1 月继续或停止的明确决定 |
 
 ### 时间统计规则
 
